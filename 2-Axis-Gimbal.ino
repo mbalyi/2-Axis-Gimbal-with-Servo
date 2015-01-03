@@ -203,7 +203,7 @@ void loop() {
       Serial.print("Y degree: ");
       Serial.println(degree[1]);
        
-      Serial.print("Mintaveteli ido: ");
+      Serial.print("Sampling time: ");
       Serial.println((new_timeCounter-last_timeCounter) / 1000);
       
       Serial.print("Hatso elteres: ");
@@ -219,6 +219,4 @@ void loop() {
     
     servo_X.write(counterX);
     servo_Y.write(counterY);
-  
-  
 }
